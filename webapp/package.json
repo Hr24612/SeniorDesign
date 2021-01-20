@@ -1,0 +1,29 @@
+{
+  "name": "sddec20-10",
+  "version": "1.0.0",
+  "description": "Warehouse inventory automation system senior design project",
+  "main": "client/src/index.js",
+  "scripts": {
+    "client-dev": "cd client && npm start",
+    "server-dev": "cd server && npm run dev",
+    "app-dev": "cd client && npm start && cd ../server && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.ece.iastate.edu/sd/sddec20-10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-watch": "^7.0.0",
+    "mongoose": "^5.10.3",
+    "node-sass": "^4.14.1",
+    "react-scripts": "^3.4.3",
+    "webpack": "^4.42.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6"
+  }
+}
